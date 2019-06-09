@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+	
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/register_2" 
+      	android:id="@+id/registerOne"
+      	android:textColor="@color/black"
+      	android:background="@color/white"
+        android:textStyle="normal"
+        android:textSize="18sp"
+        android:paddingRight="30sp"
+		android:paddingLeft="30sp"
+		android:layout_marginTop="60sp"></TextView>
+	
+	<EditText
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:hint="@string/login_5"
+		android:id="@+id/registerTwo"
+		android:textColorHint="@color/gainsboro"
+		android:inputType="textEmailAddress"
+		android:textColor="@color/black"
+		android:singleLine="true"
+		android:paddingRight="30sp"
+		android:paddingLeft="30sp"
+		/>
+	
+	<View  
+    	android:layout_width="fill_parent"  
+    	android:layout_height="1px"  
+    	android:background="@color/black" />
+	
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/register_3" 
+      	android:id="@+id/registerThree"
+      	android:textColor="@color/black"
+      	android:background="@color/white"
+        android:textStyle="normal"
+        android:textSize="18sp"
+        android:paddingRight="30sp"
+		android:paddingLeft="30sp"
+		android:layout_marginTop="60sp"></TextView>
+	
+	<EditText
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:hint="@string/register_4"
+		android:id="@+id/registerFour"
+		android:textColorHint="@color/gainsboro"
+		android:inputType="textEmailAddress"
+		android:textColor="@color/black"
+		android:singleLine="true"
+		android:password="true"
+		android:paddingRight="30sp"
+		android:paddingLeft="30sp"
+		/>
+	
+	<View  
+    	android:layout_width="fill_parent"  
+    	android:layout_height="1px"  
+    	android:background="@color/black" />
+	
+	<EditText
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:hint="@string/register_5"
+		android:id="@+id/registerSix"
+		android:textColorHint="@color/gainsboro"
+		android:inputType="textEmailAddress"
+		android:textColor="@color/black"
+		android:singleLine="true"
+		android:password="true"
+		android:paddingRight="30sp"
+		android:paddingLeft="30sp"
+		/>
+	
+	<View  
+    	android:layout_width="fill_parent"  
+    	android:layout_height="1px"  
+    	android:background="@color/black" />
+	
+	<Button
+	    android:id="@+id/btnThree"
+	    android:layout_width="fill_parent"
+		android:layout_height="64sp"
+		android:layout_marginTop="20sp"
+		android:paddingRight="50sp"
+		android:paddingLeft="50sp"
+		android:background="@drawable/button"
+		android:text="@string/register_1"
+		/>
+	
+	<Button
+	    android:id="@+id/btnFour"
+	    android:layout_width="fill_parent"
+		android:layout_height="64sp"
+		android:layout_marginTop="20sp"
+		android:paddingRight="50sp"
+		android:paddingLeft="50sp"
+		android:background="@drawable/button"
+		android:text="@string/register_6"
+		/>
+</LinearLayout>

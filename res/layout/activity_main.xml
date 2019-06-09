@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+	android:background="@color/white">
+
+    <TextView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/txtOne"
+		android:text="@string/hello_world1" 
+		android:textColor="@color/gainsboro"
+        android:textStyle="normal"
+        android:textSize="18sp"
+		android:layout_marginBottom="16dp"
+        android:gravity="bottom|center_horizontal"
+
+        />
+    
+    <TextView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/txtThree"
+		android:text="@string/hello_world3" 
+		android:textColor="@color/gainsboro"
+        android:textStyle="normal"
+        android:textSize="13sp"
+        android:gravity="bottom|center_horizontal"
+        />
+    
+    <TextView
+        android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/txtTwo"
+		android:text="@string/mins" 
+		android:textColor="@color/aquamarine"
+        android:textStyle="bold"
+        android:textSize="90sp"
+        android:layout_marginTop="80dp"
+        android:shadowColor="@color/gainsboro"
+        android:shadowDx="10.0"
+        android:shadowDy="10.0"
+        android:shadowRadius="3.0"
+        android:gravity="center_horizontal"
+		/>
+</RelativeLayout>

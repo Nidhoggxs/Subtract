@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+	android:background="@color/white">
+
+    
+    <TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/loginOne"
+		android:text="@string/login_1" 
+		android:textColor="@color/black"
+        android:textStyle="normal"
+        android:textSize="25sp"
+		android:layout_marginTop="35sp"
+        android:layout_centerHorizontal="true"
+        />
+     
+	<TextView
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+      	android:text="@string/login_3" 
+      	android:id="@+id/loginTwo"
+      	android:textColor="@color/black"
+        android:textStyle="normal"
+        android:textSize="18sp"
+		android:layout_below="@id/loginOne"
+		android:layout_marginTop="60sp"
+		android:layout_marginLeft="30sp"
+    	/>
+	
+	<EditText
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:hint="@string/login_5"
+		android:id="@+id/loginFive"
+		android:layout_toRightOf="@id/loginTwo"
+		android:textColorHint="@color/gainsboro"
+		android:inputType="textEmailAddress"
+		android:textColor="@color/black"
+		android:singleLine="true"
+		android:paddingLeft="35sp"
+		android:layout_below="@id/loginTwo"
+		/>
+	
+	<TextView
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+      	android:text="@string/login_4" 
+      	android:textColor="@color/black"
+      	android:id="@+id/loginThree"
+        android:textStyle="normal"
+        android:textSize="18sp"
+        android:layout_below="@id/loginTwo"
+        android:layout_marginTop="60sp"
+        android:layout_marginLeft="30sp"
+    	/>
+	
+	<EditText
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:hint="@string/login_6"
+		android:id="@+id/loginFour"
+		android:layout_toRightOf="@id/loginThree"
+		android:textColorHint="@color/gainsboro"
+		android:textColor="@color/black"
+		android:singleLine="true"
+		android:password="true"
+		android:paddingLeft="35sp"
+		android:layout_below="@id/loginThree"
+		/>
+	
+	<Button
+	    android:id="@+id/btnOne"
+	    android:layout_width="wrap_content"
+		android:layout_height="64sp"
+		android:layout_below="@id/loginFour"
+		android:layout_marginLeft="30sp"
+		android:layout_marginTop="20sp"
+		android:paddingRight="50sp"
+		android:paddingLeft="50sp"
+		android:background="@drawable/button"
+		android:text="@string/login_2"
+		/>
+	
+	<Button
+	    android:id="@+id/btnTwo"
+	    android:layout_width="wrap_content"
+		android:layout_height="64sp"
+		android:layout_below="@id/loginFour"
+		android:layout_marginLeft="30sp"
+		android:layout_marginTop="20sp"
+		android:paddingRight="50sp"
+		android:paddingLeft="50sp"
+		android:background="@drawable/button"
+		android:layout_toRightOf="@id/btnOne"
+		android:text="@string/login_7"
+		/>
+    </RelativeLayout>

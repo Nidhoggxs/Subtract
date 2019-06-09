@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<!--     <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/> -->
+	<item android:id="@+id/add_food_1" android:title="@string/food_1" />
+    <item android:id="@+id/add_food_2" android:title="@string/food_2" />
+    <item android:id="@+id/add_food_3" android:title="@string/food_3" />
+    <item android:id="@+id/add_food_4" android:title="@string/food_4" />
+    <item android:id="@+id/add_food_5" android:title="@string/food_5" />
+    <item android:id="@+id/add_food_6" android:title="@string/food_6" />
+    <item android:id="@+id/add_food_7" android:title="@string/food_7" />
+    <item android:id="@+id/add_food_8" android:title="@string/food_8" />
+    <item android:id="@+id/add_food_9" android:title="@string/food_9" />
+    <item android:id="@+id/add_food_10" android:title="@string/food_10" />
+    <item android:id="@+id/add_food_11" android:title="@string/food_11" />
+    <item android:id="@+id/add_food_12" android:title="@string/food_12" />
+    <item android:id="@+id/add_food_13" android:title="@string/food_13" />
+    <item android:id="@+id/add_food_14" android:title="@string/food_14" />
+    <item android:id="@+id/add_food_15" android:title="@string/food_15" />
+    <item android:id="@+id/add_food_16" android:title="@string/food_16" />
+    <item android:id="@+id/add_food_17" android:title="@string/food_17" />
+    <item android:id="@+id/add_food_18" android:title="@string/food_18" />
+    <item android:id="@+id/add_food_19" android:title="@string/food_19" />
+    <item android:id="@+id/add_food_20" android:title="@string/food_20" />
+    <item android:id="@+id/add_food_21" android:title="@string/food_21" />
+    <item android:id="@+id/add_food_22" android:title="@string/food_22" />
+    <item android:id="@+id/add_food_23" android:title="@string/food_23" />
+    <item android:id="@+id/add_food_24" android:title="@string/food_24" />
+    
+</menu>
